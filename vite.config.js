@@ -5,7 +5,6 @@ export default defineConfig({
   plugins: [react()],
   root: './',  // Ensure this points to the correct folder
   build: {
-    outDir: 'dist',  // Netlify expects the built files to be in "dist/"
+    outDir: 'dist',
   },
 });
-
